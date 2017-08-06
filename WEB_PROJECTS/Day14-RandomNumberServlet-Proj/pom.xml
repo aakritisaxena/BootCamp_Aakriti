@@ -7,6 +7,13 @@
     <groupId>com.cdk</groupId>
     <artifactId>Day14-RandomNumberServlet-Proj</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.spec.javax.servlet</groupId>
+            <artifactId>jboss-servlet-api_3.1_spec</artifactId>
+            <version>1.0.0.Alpha1</version>
+        </dependency>
+    </dependencies>
 
-    
+
 </project>
