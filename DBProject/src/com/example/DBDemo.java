@@ -14,7 +14,8 @@ class DBDemo{
 			//Load jdbc driver in jvm
 			Class.forName("com.mysql.jdbc.Driver");
 			//Create a DB connection
-			con = DriverManager.getConnection("jdbc:mysql://192.168.171.175:3306/cdk?useSSL=false","root","root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost" +
+					":3306/cdk?useSSL=false","root","root");
 			System.out.println("Connected to DB");	
 			//Create a statement
 			stm = con.createStatement();
