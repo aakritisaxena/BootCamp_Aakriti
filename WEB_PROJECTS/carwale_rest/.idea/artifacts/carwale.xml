@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="carwale">
+    <output-path>C:/Tomcat8.5/webapps</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="carwale_rest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="carwale_rest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring MVC-4.3.10.RELEASE" />
+          <element id="library" level="project" name="Spring-4.3.10.RELEASE" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
